@@ -20,16 +20,20 @@
               <p style="text-align:center">
                 <name>Alexander 'Sasha' Vilesov</name>
               </p>
-              <p>I am a PhD student in the <a href="https://visual.ee.ucla.edu/">Visual Machines Group</a> with Achuta Kadambi at <a href="https://www.ucla.edu/">UCLA</a> where I work on computer vision and computational imaging.
+              <p>I am a PhD student in the <a href="https://visual.ee.ucla.edu/">Visual Machines Group</a> with Prof. Achuta Kadambi at <a href="https://www.ucla.edu/">UCLA</a> where I started in 2021. At VMG, we work on developing cutting-edge tools at the intersection of physics and artificial intelligence, to be applied to diverse problems in human-centric computer vision and computational imaging. 
               </p>
               <p>
-                Before starting my PhD, I received my bachelors in Electrical and Computer Engineering at the <a href="https://www.usc.edu/">University of Southern California</a> (USC) in 2021. In 2020-2021, I worked at <a href="https://www.jpl.nasa.gov/">NASA JPL</a> on TriG GPS receivers (mounted on <a href="https://www.nesdis.noaa.gov/COSMIC-2">Cosmic-2</a>) to support tracking of <a href="https://en.wikipedia.org/wiki/Galileo_(satellite_navigation)">GALILEO</a> satellites.
+                Before starting my PhD, I received my Bachelor's in Electrical and Computer Engineering at the <a href="https://www.usc.edu/">University of Southern California</a> (USC) in 2021 and worked in the GSP Lab with Prof. Antonio Ortega and the S2L2 Lab on inverse reinforcement learning with Prof. Rahul Jain . In 2020-2021, I worked at <a href="https://www.jpl.nasa.gov/">NASA JPL</a> on TriG GPS receivers (mounted on <a href="https://www.nesdis.noaa.gov/COSMIC-2">Cosmic-2</a>) to support tracking of <a href="https://en.wikipedia.org/wiki/Galileo_(satellite_navigation)">GALILEO</a> satellites.
               </p>
               <p style="text-align:center">
                 <a href="mailto:vilesov@ucla.edu">Email</a> &nbsp/&nbsp
                 <a href="data/Vilesov_Resume.pdf">CV</a> &nbsp/&nbsp
                 <a href="https://twitter.com/SashaVilesov">Twitter</a> &nbsp/&nbsp
                 <a href="https://github.com/asvilesov/">Github</a>
+              </p>
+              <p style="text-align:center">
+                vilesov@ucla.edu &nbsp/&nbsp
+                (626)-390-7241
               </p>
             </td>
             <td style="padding:2.5%;width:40%;max-width:40%">
@@ -42,16 +46,101 @@
             <td style="padding:0px;width:100%;vertical-align:middle">
               <heading>Research</heading>
               <p>
-                Within computer vision and computational imaging, I have interests in Text-To-3D Generation, Image Diffusion models, and Human-centric Computer Vision. I am interested in research towards developing scalable large-scale scenes with applications in content generation and entertainment. 
-                Additionally, I am actively pursuing finding novel health sensing techniques with unique hardware combinations and algorithmic approaches. 
+                My research interests lie at the intersection computer vision/computational imaging and human-centric machine learning. My current work spans 3D representations, equitable health sensing, and uncertainty.
               </p>
               <heading>Papers</heading>
+              <p>* indicates equal contribution</p>
               <!-- <heading>Current Research</heading>
               <p>
                 Non-contact Biomedical devices and algorithms have the ambitious goals of accurately extracting vital signs and/or diagnosing a subject with an underlying condition. It is obvious why they are so attractive, they promise to quickly, accurately, and in a non-invasive way assess the health condition of a person. But, there are barriers to these goals. One is the susceptibility to algorithmic error due to variance in a population, we can see this as the problem of generalization. Secondly, devices/algorithms may have an inherent bias to certain parts of the population, we see this clearly in RPPG and thermal loading in IRT devices. Lastly, devices often target one physical or health modality. Combining various modalities into a composite sensor can expand its capabilities. We will study non-contact biomedical devices and algorithms to analyze and overcome these barriers. The result should be two-fold, to identify bias in current devices and algorithms through understanding their mechanics and conducting empirical tests; then, a solution should reduce these shortcomings. If we succeed, then we will pave the way for a more efficient and fairer healthcare. 
               </p> -->
             </td>
           </tr>
+        
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr onmouseout="equipleth_611_stop()" onmouseover="equipleth_611_start()"  bgcolor="#ffffff">
+            <td style="padding:20px;width:40%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='equipleth_611'><video  width=100% height=100% muted autoplay loop>
+                <source src="images/teaser_implicitppg.png" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='images/teaser_implicitppg.png' width="325">
+              </div>
+              <script type="text/javascript">
+                function equipleth_611_start() {
+                  document.getElementById('equipleth_img_611').style.opacity = "1";
+                }
+
+                function equipleth_611_stop() {
+                  document.getElementById('equipleth_img_611').style.opacity = "0";
+                }
+                equipleth_611_stop()
+              </script>
+            </td>
+            <td style="padding:0px;width:100%;vertical-align:middle">
+              
+                <papertitle>Implicit Neural Models to Extract Heart Rate from Video</papertitle>
+
+              <br>
+              <a href="https://pradyumnachari.github.io/">Pradyumna Chari</a>,
+              <a href="https://anirudh0707.github.io">Anirudh B. Harish</a>,
+              <a href="https://adnan-armouti.github.io">Adnan Armouti</a>,
+              <strong>Alexander Vilesov</strong>,
+              <a> Sanjit Sarda</a>
+              <a href="https://www.uclahealth.org/providers/laleh-jalilian">Laleh Jalilian</a>,
+              <a href="https://www.ee.ucla.edu/achuta-kadambi/">Achuta Kadambi</a>
+              <br>
+              <em>ECCV</em>, 2024 &nbsp 
+              <br>
+              <a href="https://implicitppg.github.io/">Project Page</a> /
+              <a href="https://drive.google.com/file/d/1yxeVvcLhECcG7hPWVHr0tSyBIfLlUr9N/view">Paper Link</a> /
+              <a href="https://github.com/UCLA-VMG/FastImplicitPleth">Code</a>
+              <p></p>
+              <p> We propose a new implicit neural representation, that enables fast and accurate decomposition of face videos into blood and appearance components. This allows contactless estimation of heart rate from challenging out-of-distribution face videos. </p>
+            </td>
+          </tr> 
+        
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr onmouseout="equipleth_611_stop()" onmouseover="equipleth_611_start()"  bgcolor="#ffffff">
+            <td style="padding:20px;width:40%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='equipleth_611'><video  width=100% height=100% muted autoplay loop>
+                <source src="images/image_deepfakes.png" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='images/image_deepfakes.png' width="325">
+              </div>
+              <script type="text/javascript">
+                function equipleth_611_start() {
+                  document.getElementById('equipleth_img_611').style.opacity = "1";
+                }
+
+                function equipleth_611_stop() {
+                  document.getElementById('equipleth_img_611').style.opacity = "0";
+                }
+                equipleth_611_stop()
+              </script>
+            </td>
+            <td style="padding:0px;width:100%;vertical-align:middle">
+              
+                <papertitle>Solutions to Deepfakes: Can Camera Hardware, Cryptography, and Deep Learning Verify Real Images?</papertitle>
+
+              <br>
+              <strong>Alexander Vilesov</strong>,
+              <a href="https://www.ytian.info/">Yuan Tian</a>,
+              <a href="https://ssysarch.ee.ucla.edu/nader/">Nader Sehatbakhsh</a>,
+              <a href="https://www.ee.ucla.edu/achuta-kadambi/">Achuta Kadambi</a>
+              <br>
+              <em>White Paper</em>, 2024 &nbsp 
+              <br>
+              <a href="https://arxiv.org/pdf/2407.04169">Paper Link</a>
+              <p></p>
+              <p> The rapid advancement of generative AI threatens the credibility of real images and videos, as synthetic content will soon be indistinguishable from camera-captured media and easily accessible to all. This white paper explores detection and cryptographic methods to reliably differentiate real images from synthetic ones, analyzing existing strategies and proposing improvements to enhance their effectiveness. </p>
+            </td>
+          </tr> 
         
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
@@ -80,8 +169,8 @@
                 <papertitle>CG3D: Compositional Generation for Text-to-3D via Gaussian Splatting</papertitle>
 
               <br>
-              <strong>Alexander Vilesov</strong>,
-              <a href="https://pradyumnachari.github.io/">Pradyumna Chari</a>,
+              <strong>Alexander Vilesov*</strong>,
+              <a href="https://pradyumnachari.github.io/">Pradyumna Chari*</a>,
               <a href="https://www.ee.ucla.edu/achuta-kadambi/">Achuta Kadambi</a>
               <br>
               <em>Arxiv</em>, 2023 &nbsp 
@@ -171,9 +260,9 @@
                 <papertitle>Blending Camera and 77 GHz Radar Sensing for Equitable, Robust Plethysmography</papertitle>
               </a>
               <br>
-              <strong>Alexander Vilesov</strong>,
-              <a href="https://pradyumnachari.github.io/">Pradyumna Chari</a>,
-              <a href="https://adnan-armouti.github.io">Adnan Armouti</a>,
+              <strong>Alexander Vilesov*</strong>,
+              <a href="https://pradyumnachari.github.io/">Pradyumna Chari*</a>,
+              <a href="https://adnan-armouti.github.io">Adnan Armouti*</a>,
               <a href="https://anirudh0707.github.io">Anirudh B. Harish</a>,
               Kimaya Kulkarni,
               Ananya Deoghare,
