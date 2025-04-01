@@ -129,3 +129,20 @@ name {
 span.highlight {
   background-color: #ffffd0;
 }
+
+.icon-link {
+  display: inline-block;
+  margin: 10px;
+  transition: transform 0.2s ease;
+}
+
+.icon-link:hover {
+  transform: scale(1.15);
+}
+
+.icon-img {
+  width: 36px;   /* Adjust to your preference */
+  height: 36px;
+  object-fit: contain;
+  vertical-align: middle;
+}
