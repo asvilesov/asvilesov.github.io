@@ -141,8 +141,8 @@ span.highlight {
 }
 
 .icon-img {
-  width: 36px;   /* Adjust to your preference */
-  height: 36px;
+  width: 40px;   /* Adjust to your preference */
+  height: 40px;
   object-fit: contain;
   vertical-align: middle;
 }
